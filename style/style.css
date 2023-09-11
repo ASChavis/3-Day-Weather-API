@@ -1,0 +1,117 @@
+*{   
+    margin:0;
+    padding:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#619c84;
+  
+    
+
+}
+.search{
+    display: flex;
+    background-color: F6E3C5;
+    width: 100vw;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    padding: 1vh;
+
+}
+
+.search button {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 2vw;
+    border: 0;
+    color: #619c84;
+
+}
+
+input {
+    height: 5vh;
+    width: 40vw;
+    border-radius: 20px;
+    border: 0;
+    font-size: large;
+    text-indent: 2vw;
+}
+
+.forecastTiles {
+    display:flex;
+    justify-content: space-between;
+    margin:2vw;
+    
+}
+
+.card{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    width:50vw;
+    height: 40vh;
+    background-image: linear-gradient(#adbdc0, #6CC4A1, #4CACBC);
+    border-radius: 20px;
+    margin:3vw;
+    text-align: center;
+    color: #F6E3C5;
+    padding: 1vw;
+    
+}
+
+.day1, .day2, .day3{
+    padding-bottom: 2vh;
+}
+
+h3{
+    padding: 2%;
+}
+
+.details{
+    display:flex;
+    justify-content: center;
+    color: #F6E3C5;
+    
+}
+
+p {
+    font-size: x-large;
+}
+.column {
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding:1vw;
+    
+}
+
+h1{
+    text-align: center;
+    color: #F6E3C5;
+    padding-bottom: 3vh;
+}
+
+h6{
+    text-align: center;
+    font-size: large;
+    color: #e0d1b8;
+    padding-bottom: 25vh;
+
+}
+
+footer{
+    text-align: center;
+    color: grey;
+    
+}
+
+a{
+    color: grey;
+    text-decoration: none;
+
+}
