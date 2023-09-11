@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+
+
 body{
     background-color:#619c84;
   
@@ -45,6 +47,7 @@ input {
     display:flex;
     justify-content: space-between;
     margin:2vw;
+    height: max-content;
     
 }
 
@@ -54,7 +57,7 @@ input {
     justify-content:center;
     align-items:center;
     width:50vw;
-    height: 40vh;
+    height: fit-content;
     background-image: linear-gradient(#adbdc0, #6CC4A1, #4CACBC);
     border-radius: 20px;
     margin:3vw;
@@ -80,7 +83,7 @@ h3{
 }
 
 p {
-    font-size: x-large;
+    font-size: 3vw;
 }
 .column {
     align-items: center;
