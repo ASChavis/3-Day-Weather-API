@@ -37,13 +37,7 @@ document.querySelector(".icon1").src = data.forecast.forecastday[0].day.conditio
 document.querySelector(".icon2").src = data.forecast.forecastday[1].day.condition.icon;
 document.querySelector(".icon3").src = data.forecast.forecastday[2].day.condition.icon;
 
-
-
-
 }
-
-
-
 
 searchBtn.addEventListener("click", function (){
     checkWeather(searchBar.value);
