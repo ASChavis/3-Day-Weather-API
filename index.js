@@ -4,7 +4,7 @@ const searchBtn = document.querySelector("button");
 async function checkWeather (city){
 
     const apiKey = "&key=be43167956334322af8222757230609";
-    const apiURL = "http://api.weatherapi.com/v1/forecast.json";
+    const apiURL = "https://api.weatherapi.com/v1/forecast.json";
 
 
     const response = await fetch(`${apiURL}?q=${city}${apiKey}&days=3`);
